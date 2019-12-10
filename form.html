@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+<head>
+        <meta chearset="utf-8">
+        <title>form</title>
+        </head>
+        <body>
+        
+            <fieldset>
+            <legend>form pendaftaran</legend>
+<table>
+            <form action="simpa.php" method="POST">
+                
+                <tr>
+                    <td>
+                <labe for="No_pendaftaran">No.pendaftaran</label>
+                </td>
+                <td>
+                <input type="number" id="No_pendaftaran" required> <br>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                <label for="Nama_lengkap">Nama Lengkap</label>
+            </td>
+            <td>
+                <input type="text" id="Nama_lengkap"required> <br>
+            </td>
+            </tr>
+        </table>
+                <label>jenis kelamin :</label>
+                <input type="radio" name="jk">pria
+                <input type="radio" name="jk">wanita <br>
+                <table>
+                <label>alamat :</label>
+                <textarea name="name" cols="40" rows="8"></textarea required>
+                </table>
+                <label>Agama :</label>
+                <select required>
+                    <option value="islam">islam</option>
+                    <option value="hindu">hindu</option>
+                    <option value="kristen">kristen</option>
+                    <option value="katolik">katolik</option>
+                </select> <br>
+
+
+                <label>hobi :</label>
+                <input type="checkbox" name="hobi" value=""required>makan
+                <input type="checkbox" name="hobi" value=""required>minum
+                <input type="checkbox" name="hobi" value=""required>tidur
+
+                <br>
+
+                <label>inputan hiden</label><br/>
+                <input type="hidden" name="" value="">
+                <label>password</label>
+                <input type="password" name="password"><br/>
+                <label>foto profile</label><br/>
+                <input type="file" name="foto"required> <br> <br>
+                <button type="submit">
+                    simpan
+                </button>
+                <button type="reset">
+                    reset data 
+                </button>
+            
+            </form>
+        </fieldset>
+        </body>
+    </html>
